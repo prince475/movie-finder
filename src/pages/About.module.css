@@ -1,0 +1,40 @@
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .aboutCard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutCard h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .aboutCard p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .imageContainer {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .aboutImage {
+    width: 80%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
