@@ -1,0 +1,107 @@
+/* .home {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+  }
+   */
+
+   /* src/pages/Home.module.css */
+/* src/pages/Home.module.css */
+/* src/pages/Home.module.css */
+/* src/pages/Home.module.css */
+.home {
+    padding: 2rem;
+  }
+  
+  .movieGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    gap: 1.5rem; /* space between cards */
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .movieGrid {
+      grid-template-columns: repeat(3, 1fr); /* 3 cards per row on tablets */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .movieGrid {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row on mobile */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .movieGrid {
+      grid-template-columns: 1fr; /* 1 card per row on very small screens */
+    }
+  }
+  
+  .movieCard {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 1rem;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    text-align: center;
+  }
+  
+  .movieCard:hover {
+    transform: translateY(-4px);
+  }
+  
+  .movieCard img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .movieCard h3 {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+  
+  .movieCard p {
+    margin: 0.2rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
